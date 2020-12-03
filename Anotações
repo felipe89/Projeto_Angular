@@ -1,0 +1,50 @@
+--Crud
+Para inicialização de um projeto Json informamos o comando 
+	
+		npm init -y (serve para responder todas as perguntar com o valor padrão )
+		
+--Criar dependencias node
+	
+		npm i json-server
+
+Para testar o projeto informamos o comando 
+		
+		npm start
+
+E podemos testado o projeto via postman informando a url do projeto que é gerada no terminal 
+e inserindo operações via postman com (GET, POST, PUT e DELET)
+
+
+--Comando Angular inicial
+Primeiro para criar as dependencias angular iniciar com o comando 
+
+	-sudo npm i -g @angular/cli
+	
+Criando estrutura do projeto através do comando 
+
+	-ng new frontend --minimal (versão minimal - utiliza os componentes basicos)
+	
+Após informar esses comando acessar na pasta crianda "frontend" e informar o comando. 
+
+	-npm start ( para inicializar o projeto)
+	
+Observação: certificar que todos os ambientes estão no ar (Crud/ frontend / angular) via terminal e verificando o localhost:4200 ou que  foi criado. 		 
+
+- Adicionar componete material
+
+	-ng add @angular/material (auxiliar na contrução do desing da pagina utilizando padrão google)
+
+- Criando componentes 
+
+	No terminal informe o comando <ng generate component> ou < ng g c> e informar o caminho que  será aderido o componente por exemplo: 
+	
+	- ng g c components/template/header
+	
+	- ng g c components/template/footer (criação de componte para o rodapé) 
+
+	
+	
+	
+	
+	
+	
